@@ -7,10 +7,18 @@
     font-weight: 800;
     text-transform: uppercase;
     color: rgba(43,44,55,0.66);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
 
     &--primary {
         color: white;
         background-color: $blue-color;
+    }
+
+    &--duw {
+        text-transform: none;
     }
 }
 
@@ -19,7 +27,11 @@
     color: rgba(43,44,55,0.66);
     text-transform: uppercase;
     border-radius: 28px;
-    padding: 12px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
     &--primary {
         background-color: rgba(0,164,95,0.15);
         color: $green-color;

@@ -7,12 +7,12 @@
     &__item {
         flex: 1;
         text-align: center;
-        padding: 15px 0;
+        padding: 10px 0;
 
         &--active {
             border-bottom: 2px solid $black-color;
             margin: -3px;
-            padding: 18px 0;
+            padding: 15px 0;
             color: $black-color;
         }
     }
