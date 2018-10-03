@@ -1,0 +1,27 @@
+.button {
+    width: 185px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: $grey-color;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: rgba(43,44,55,0.66);
+
+    &--primary {
+        color: white;
+        background-color: $blue-color;
+    }
+}
+
+.badge {
+    background-color: $grey-color;
+    color: rgba(43,44,55,0.66);
+    text-transform: uppercase;
+    border-radius: 28px;
+    padding: 12px;
+    &--primary {
+        background-color: rgba(0,164,95,0.15);
+        color: $green-color;
+    }
+}
