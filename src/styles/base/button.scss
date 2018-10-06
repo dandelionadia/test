@@ -1,6 +1,5 @@
 .button {
-    width: 185px;
-    height: 40px;
+    min-width: 185px;
     border-radius: 20px;
     border: none;
     background-color: $grey-color;
@@ -8,28 +7,41 @@
     text-transform: uppercase;
     color: rgba(43,44,55,0.66);
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding: 0 10px;
+    padding: 10px;
+    // text-align: center;
 
     &--primary {
         color: white;
         background-color: $blue-color;
     }
+}
 
-    &--duw {
-        text-transform: none;
-    }
+.download {
+    max-width: 185px;
+    border-radius: 20px;
+    border: none;
+    background-color: $grey-color;
+    font-weight: 800;
+    text-transform: none;
+    color: rgba(43,44,55,0.66);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    // text-align: center;
 }
 
 .badge {
+    max-width: 125px;
     background-color: $grey-color;
     color: rgba(43,44,55,0.66);
     text-transform: uppercase;
     border-radius: 28px;
     padding: 10px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 
     &--primary {
