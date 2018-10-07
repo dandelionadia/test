@@ -1,0 +1,40 @@
+.download-list {
+    overflow: scroll;
+    height: 300px;
+
+    &::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background: $grey-color;
+        border-radius: 7px;
+    }
+
+    &__item {
+        display: flex;
+        align-items: center;
+        margin-top: 15px;
+    }
+}
+
+.download {
+    &__date {
+        width: 40%;
+    }
+
+    &__file {
+        width: 60%;
+        margin-right: 30px; 
+        border-radius: 20px;
+        border: none;
+        background-color: $grey-color;
+        font-weight: 400;
+        text-transform: none;
+        color: rgba(43,44,55,0.66);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 7px 10px;
+    }
+}
