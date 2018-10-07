@@ -1,6 +1,7 @@
 .download-list {
     overflow: scroll;
     height: 300px;
+    margin: 20px 0 0;
 
     &::-webkit-scrollbar {
         width: 8px;

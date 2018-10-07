@@ -1,0 +1,13 @@
+.stats {
+    display: flex;
+
+    &__item {
+        flex-grow: 1;
+        padding: 10px;
+        text-transform: uppercase;
+
+        &:not(:last-child) {
+            border-right: 1px solid $grey-color;
+        }
+    }
+}
