@@ -1,8 +1,14 @@
 .card {
     background-color: white;
-    padding: 25px;
 
     &--rounded {
         border-radius: 16px;
+        background-color: white;
+        overflow: hidden;
+        margin-top: 40px;
+
+    }
+    &__content {
+        padding: 25px;
     }
 }

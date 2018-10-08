@@ -46,5 +46,7 @@ p {
 
     &--smallest {
         font-size: 0.75rem; // 12px
+        color: $grey-color;
+        text-transform: none;
     }
 }
