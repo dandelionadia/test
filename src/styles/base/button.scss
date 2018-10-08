@@ -24,13 +24,21 @@
     color: rgba(43,44,55,0.66);
     text-transform: uppercase;
     border-radius: 28px;
-    padding: 10px;
+    padding: 7px;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    z-index: 1;
+    margin-top: -15px;
+    margin-left: 10px;
 
     &--primary {
         background-color: rgba(0,164,95,0.15);
         color: $green-color;
+    }
+
+    &__blue {
+        background-color: transparentize($blue-color, 0.3);
     }
 }
