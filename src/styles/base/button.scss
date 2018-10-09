@@ -20,10 +20,11 @@
         color: rgba(43,44,55,0.66);
         background-color: $grey-color;
         max-width: 125px;
-        padding: 5px;
+        padding: 5px 10px;
         margin-top: -15px;
         margin-left: 10px;
         border-radius: 28px;
+        border: none;
         font-size: 12px; 
         text-transform: uppercase;
         display: flex;
@@ -38,7 +39,12 @@
         }
     
         &--blue {
-            background-color: transparentize($blue-color, 0.3);
+            background-color: lighten($blue-color-dark, 40%);
+            color: $blue-color-dark;
+        }
+
+        &--text {
+            margin-right: 10px;
         }
     }
 }
