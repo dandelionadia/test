@@ -1,44 +1,43 @@
 .button {
+    color: rgba(43,44,55,0.66);
+    background-color: $grey-color;
     min-width: 120px;
+    padding: 5px;
+    font-weight: 800;
     border-radius: 20px;
     border: none;
-    background-color: $grey-color;
-    font-weight: 800;
     text-transform: uppercase;
-    color: rgba(43,44,55,0.66);
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5px;
-    // text-align: center;
 
     &--primary {
         color: white;
         background-color: $blue-color;
     }
-}
 
-.badge {
-    max-width: 125px;
-    background-color: $grey-color;
-    color: rgba(43,44,55,0.66);
-    text-transform: uppercase;
-    border-radius: 28px;
-    padding: 7px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    z-index: 1;
-    margin-top: -15px;
-    margin-left: 10px;
-
-    &--primary {
-        background-color: rgba(0,164,95,0.15);
-        color: $green-color;
-    }
-
-    &__blue {
-        background-color: transparentize($blue-color, 0.3);
+    &__badge {
+        color: rgba(43,44,55,0.66);
+        background-color: $grey-color;
+        max-width: 125px;
+        padding: 7px;
+        margin-top: -15px;
+        margin-left: 10px;
+        border-radius: 28px;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        z-index: 1;
+    
+        &--primary {
+            background-color: rgba(0,164,95,0.15);
+            color: $green-color;
+        }
+    
+        &--blue {
+            background-color: transparentize($blue-color, 0.3);
+        }
     }
 }

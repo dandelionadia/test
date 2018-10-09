@@ -1,13 +1,13 @@
 .opinion {
+    margin-top: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 20px;
 
     &__box {
+        height: 30px;
         border-radius: 50%;
         border: 2px solid $grey-color;
-        height: 30px;
         display: flex;
         align-items: center;
     }
