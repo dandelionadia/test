@@ -1,39 +1,50 @@
 .button {
-    width: 185px;
-    height: 40px;
+    color: rgba(43,44,55,0.66);
+    background-color: $grey-color;
+    min-width: 120px;
+    padding: 5px;
+    font-weight: 800;
     border-radius: 20px;
     border: none;
-    background-color: $grey-color;
-    font-weight: 800;
     text-transform: uppercase;
-    color: rgba(43,44,55,0.66);
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding: 0 10px;
 
     &--primary {
         color: white;
         background-color: $blue-color;
     }
 
-    &--duw {
-        text-transform: none;
-    }
-}
+    &__badge {
+        color: rgba(43,44,55,0.66);
+        background-color: $grey-color;
+        max-width: 125px;
+        padding: 5px 10px;
+        margin-top: -15px;
+        margin-left: 10px;
+        border-radius: 28px;
+        border: none;
+        font-size: 12px; 
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        z-index: 1;
+    
+        &--primary {
+            background-color: rgba(0,164,95,0.15);
+            color: $green-color;
+        }
+    
+        &--blue {
+            background-color: lighten($blue-color-dark, 40%);
+            color: $blue-color-dark;
+        }
 
-.badge {
-    background-color: $grey-color;
-    color: rgba(43,44,55,0.66);
-    text-transform: uppercase;
-    border-radius: 28px;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    &--primary {
-        background-color: rgba(0,164,95,0.15);
-        color: $green-color;
+        &--text {
+            margin-right: 10px;
+        }
     }
 }

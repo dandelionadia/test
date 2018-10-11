@@ -1,0 +1,14 @@
+.opinion {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__box {
+        height: 30px;
+        border-radius: 50%;
+        border: 2px solid $grey-color;
+        display: flex;
+        align-items: center;
+    }
+}

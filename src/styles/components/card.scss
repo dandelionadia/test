@@ -1,0 +1,25 @@
+.card {
+    background-color: white;
+
+    &--rounded {
+        background-color: white;
+        margin-top: 40px;
+        border-radius: 16px;
+        overflow: hidden;
+
+    }
+    
+    &__content {
+        padding: 25px;
+    }
+
+    &__img-container {
+        height: 200px;
+        overflow: hidden;
+    }
+
+    &__image {
+        width: 100%;
+        height: auto;
+    }
+}

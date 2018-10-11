@@ -16,31 +16,36 @@ h1 {
 }
 
 h2 {
-    font-size: 1.25rem;
+    font-size: 1.25rem; //  24px
     color: $grey-color;
     margin: 0 0 0.8em 0;
 }
 
+p {
+    margin-top: 0;
+}
+
 .text {
-    margin: 15px 0;
     color: $black-color;
 
     &--lead {
-        font-size: 1.375rem; // 22px
-        font-weight: 800;
+        color: $black-color;
         margin-bottom: 0;
+        font-weight: 800;
+        font-size: 1.375rem; // 22px
     }
 
     &--small {
-        font-size: 0.875rem; // 14px
-        margin: 15px 0;
         color: $black-color;
-        text-transform: uppercase;
+        margin: 15px 0 0;
+        font-size: 0.875rem; // 14px
         font-weight: 500;
-        margin-bottom: 0;
+        text-transform: uppercase;
     }
 
     &--smallest {
-        font-size: 0.3rem; // 12px
+        font-size: 0.75rem; // 12px
+        color: $grey-color;
+        text-transform: none;
     }
 }
