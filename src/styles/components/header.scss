@@ -3,11 +3,12 @@
     background-color: $black-color;
     padding: 10px;
     display: flex;
+    // align-items: center;
     text-transform: uppercase;
 
     &__content {
         display: flex;
-        justify-content: space-between;
+        // justify-content: space-between;
         align-items: center;
     }
 
@@ -22,7 +23,7 @@
         margin-bottom: 0;
         display: flex;
         list-style: none;
-        padding-left: 10px;
+        // padding-left: 10px;
     }
 
     &__item {
