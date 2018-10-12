@@ -1,0 +1,9 @@
+.header {
+    background-color: $black-color;
+    display: flex;
+    color: $grey-color;
+
+    &__logo {
+        width: 100px;
+    }
+}
