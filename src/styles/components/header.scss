@@ -1,9 +1,31 @@
 .header {
-    background-color: $black-color;
-    display: flex;
     color: $grey-color;
+    background-color: $black-color;
+    padding: 10px;
+    display: flex;
+    text-transform: uppercase;
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 
     &__logo {
-        width: 100px;
+        width: 70px;
+        height: 50px;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+
+    &__list {
+        margin-bottom: 0;
+        display: flex;
+        list-style: none;
+        padding-left: 10px;
+    }
+
+    &__item {
+        padding-right: 30px;
     }
 }
