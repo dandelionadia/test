@@ -1,7 +1,6 @@
 .header {
     color: $grey-color;
     background-color: $black-color;
-    padding: 10px;
     display: flex;
     text-transform: uppercase;
 
@@ -30,9 +29,30 @@
         margin-bottom: 0;
         display: flex;
         list-style: none;
+        padding: 0 15px;
     }
-
+    
     &__item {
-        padding-right: 30px;
+        position: relative;
+        z-index: 0;
+        padding: 20px 0;
+        margin: 0 15px;
+
+        &--active {
+            color: white;    
+
+            &:after {
+                content: '';
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                height: 4px;
+                background-color: #fff;
+                color: white;
+                position: absolute;
+                z-index: 1;
+            }
+        }
+
     }
 }
