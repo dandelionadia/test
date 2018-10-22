@@ -56,6 +56,10 @@
             background-color: lighten($blue-color-dark, 40%);
             color: $blue-color-dark;
         }
+        &--yellow {
+            background-color: lighten($yellow-color, 28%);
+            color: $yellow-color;
+        }
 
         &--text {
             margin-right: 10px;
