@@ -4,15 +4,28 @@
     height: 8px;
     margin: 10px 0;
     border-radius: 10px;
+    position: relative;
 
     &__result {
-        background-color: $blue-color;
-        width: 40%;
         height: 8px;
-        margin-top: -18px;
         border-radius: 10px;
         position: absolute;
         z-index: 1;
+
+        &--red {
+            background-color: $red-color;
+            width: 100%;
+        }
+
+        &--blue {
+            background-color: $blue-color;
+            width: 40%;
+        }
+
+        &--yellow {
+            background-color: $yellow-color;
+            width: 55%;
+        }
     }
 }
 

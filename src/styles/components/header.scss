@@ -1,0 +1,58 @@
+.header {
+    color: $grey-color;
+    background-color: $black-color;
+    display: flex;
+    text-transform: uppercase;
+
+    &__content {
+        display: flex;
+        align-items: center;
+    }
+
+    &__logo {
+        width: 70px;
+        height: 50px;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+
+    &__avatar {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin-right: 10px;
+        position: absolute;
+        right: 5px;
+    }
+
+    &__list {
+        margin-bottom: 0;
+        display: flex;
+        list-style: none;
+        padding: 0 15px;
+    }
+    
+    &__item {
+        position: relative;
+        z-index: 0;
+        padding: 20px 0;
+        margin: 0 15px;
+
+        &--active {
+            color: white;    
+
+            &:after {
+                content: '';
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                height: 4px;
+                background-color: #fff;
+                color: white;
+                position: absolute;
+                z-index: 1;
+            }
+        }
+
+    }
+}
